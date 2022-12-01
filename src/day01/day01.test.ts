@@ -4,7 +4,7 @@ import input from './input.txt';
 
 const exampleInput = [[1000, 2000, 3000], [4000], [5000, 6000], [7000, 8000, 9000], [10000]];
 
-describe('Day 1, part 1', () => {
+describe('Day 1', () => {
   describe('part 1', () => {
     it('example', () => {
       expect(solvePart1(exampleInput)).toBe(24000);
