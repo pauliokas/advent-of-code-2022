@@ -12,7 +12,7 @@ const exampleInput = [
   'CrZsJsPPZsGzwwsLwLmpwMDw'.split(''),
 ] as RucksackContents[];
 
-describe('Day 1', () => {
+describe('Day 3', () => {
   describe('part 1', () => {
     it('example', () => {
       expect(solvePart1(exampleInput)).toBe(157);

@@ -9,7 +9,7 @@ const exampleInput: Pair[] = [
   ['C', 'Z'],
 ];
 
-describe('Day 1', () => {
+describe('Day 2', () => {
   describe('part 1', () => {
     it('example', () => {
       expect(solvePart1(exampleInput)).toBe(15);

@@ -33,6 +33,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/preset-typescript", "virtual:7df7f9ecb6b79bed7fee7078f38ec3d2803eb46229513855e8f70128391cab534dd2cdd504062ee251e72da8fb9bcfa3997b87bf3f7db15627ad3b0a09fad2a8#npm:7.18.6"],\
             ["@tsconfig/node18", "npm:1.0.1"],\
             ["@types/jest", "npm:29.2.3"],\
+            ["@types/lodash", "npm:4.14.191"],\
             ["@types/node", "npm:18.11.9"],\
             ["@typescript-eslint/eslint-plugin", "virtual:7df7f9ecb6b79bed7fee7078f38ec3d2803eb46229513855e8f70128391cab534dd2cdd504062ee251e72da8fb9bcfa3997b87bf3f7db15627ad3b0a09fad2a8#npm:5.45.0"],\
             ["@typescript-eslint/parser", "virtual:7df7f9ecb6b79bed7fee7078f38ec3d2803eb46229513855e8f70128391cab534dd2cdd504062ee251e72da8fb9bcfa3997b87bf3f7db15627ad3b0a09fad2a8#npm:5.45.0"],\
@@ -49,6 +50,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["husky", "npm:8.0.2"],\
             ["jest", "virtual:7df7f9ecb6b79bed7fee7078f38ec3d2803eb46229513855e8f70128391cab534dd2cdd504062ee251e72da8fb9bcfa3997b87bf3f7db15627ad3b0a09fad2a8#npm:29.3.1"],\
             ["lint-staged", "npm:13.0.4"],\
+            ["lodash", "npm:4.17.21"],\
             ["prettier", "npm:2.8.0"],\
             ["typescript", "patch:typescript@npm%3A4.9.3#~builtin<compat/typescript>::version=4.9.3&hash=d73830"]\
           ],\
@@ -3136,6 +3138,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["@types/lodash", [\
+        ["npm:4.14.191", {\
+          "packageLocation": "./.yarn/cache/@types-lodash-npm-4.14.191-67a04a969b-ba0d5434e1.zip/node_modules/@types/lodash/",\
+          "packageDependencies": [\
+            ["@types/lodash", "npm:4.14.191"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["@types/node", [\
         ["npm:18.11.9", {\
           "packageLocation": "./.yarn/cache/@types-node-npm-18.11.9-d21dd6ec05-cc0aae109e.zip/node_modules/@types/node/",\
@@ -3450,6 +3461,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/preset-typescript", "virtual:7df7f9ecb6b79bed7fee7078f38ec3d2803eb46229513855e8f70128391cab534dd2cdd504062ee251e72da8fb9bcfa3997b87bf3f7db15627ad3b0a09fad2a8#npm:7.18.6"],\
             ["@tsconfig/node18", "npm:1.0.1"],\
             ["@types/jest", "npm:29.2.3"],\
+            ["@types/lodash", "npm:4.14.191"],\
             ["@types/node", "npm:18.11.9"],\
             ["@typescript-eslint/eslint-plugin", "virtual:7df7f9ecb6b79bed7fee7078f38ec3d2803eb46229513855e8f70128391cab534dd2cdd504062ee251e72da8fb9bcfa3997b87bf3f7db15627ad3b0a09fad2a8#npm:5.45.0"],\
             ["@typescript-eslint/parser", "virtual:7df7f9ecb6b79bed7fee7078f38ec3d2803eb46229513855e8f70128391cab534dd2cdd504062ee251e72da8fb9bcfa3997b87bf3f7db15627ad3b0a09fad2a8#npm:5.45.0"],\
@@ -3466,6 +3478,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["husky", "npm:8.0.2"],\
             ["jest", "virtual:7df7f9ecb6b79bed7fee7078f38ec3d2803eb46229513855e8f70128391cab534dd2cdd504062ee251e72da8fb9bcfa3997b87bf3f7db15627ad3b0a09fad2a8#npm:29.3.1"],\
             ["lint-staged", "npm:13.0.4"],\
+            ["lodash", "npm:4.17.21"],\
             ["prettier", "npm:2.8.0"],\
             ["typescript", "patch:typescript@npm%3A4.9.3#~builtin<compat/typescript>::version=4.9.3&hash=d73830"]\
           ],\
@@ -6852,6 +6865,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["locate-path", "npm:6.0.0"],\
             ["p-locate", "npm:5.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["lodash", [\
+        ["npm:4.17.21", {\
+          "packageLocation": "./.yarn/cache/lodash-npm-4.17.21-6382451519-eb835a2e51.zip/node_modules/lodash/",\
+          "packageDependencies": [\
+            ["lodash", "npm:4.17.21"]\
           ],\
           "linkType": "HARD"\
         }]\
