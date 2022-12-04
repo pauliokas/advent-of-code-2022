@@ -43,10 +43,10 @@ To help prioritize item rearrangement, every item type can be converted to a pri
 In the above example, the priority of the item type that appears in both compartments of each rucksack is 16 (`p`),
 38 (`L`), 42 (`P`), 22 (`v`), 20 (`t`), and 19 (`s`); the sum of these is `157`.
 
-Find the item type that appears in both compartments of each rucksack. _What is the sum of the priorities of those item
-types?_
+Find the item type that appears in both compartments of each rucksack. _**What is the sum of the priorities of those
+item types?**_
 
-# Part Two
+## Part Two
 
 As you finish identifying the misplaced items, the Elves come to you with another issue.
 
@@ -84,5 +84,5 @@ the second group, their badge item type must be `Z`.
 Priorities for these items must still be found to organize the sticker attachment efforts: here, they are 18 (`r`) for
 the first group and 52 (`Z`) for the second group. The sum of these is `70`.
 
-Find the item type that corresponds to the badges of each three-Elf group. _What is the sum of the priorities of those
-item types?_
+Find the item type that corresponds to the badges of each three-Elf group. _**What is the sum of the priorities of those
+item types?**_

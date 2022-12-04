@@ -42,9 +42,9 @@ This strategy guide predicts and recommends the following:
 
 In this example, if you were to follow the strategy guide, you would get a total score of _15_ (8 + 1 + 6).
 
-_What would your total score be if everything goes exactly according to your strategy guide?_
+_**What would your total score be if everything goes exactly according to your strategy guide?**_
 
-# Part Two
+## Part Two
 
 The Elf finishes helping with the tent and sneaks back over to you. "Anyway, the second column says how the round needs
 to end: `X` means you need to lose, `Y` means you need to end the round in a draw, and `Z` means you need to win. Good
@@ -61,5 +61,5 @@ ends as indicated. The example above now goes like this:
 
 Now that you're correctly decrypting the ultra top secret strategy guide, you would get a total score of _12_.
 
-Following the Elf's instructions for the second column, _what would your total score be if everything goes exactly
-according to your strategy guide?_
+Following the Elf's instructions for the second column, _**what would your total score be if everything goes exactly
+according to your strategy guide?**_
