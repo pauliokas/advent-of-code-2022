@@ -38,6 +38,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@typescript-eslint/eslint-plugin", "virtual:7df7f9ecb6b79bed7fee7078f38ec3d2803eb46229513855e8f70128391cab534dd2cdd504062ee251e72da8fb9bcfa3997b87bf3f7db15627ad3b0a09fad2a8#npm:5.45.0"],\
             ["@typescript-eslint/parser", "virtual:7df7f9ecb6b79bed7fee7078f38ec3d2803eb46229513855e8f70128391cab534dd2cdd504062ee251e72da8fb9bcfa3997b87bf3f7db15627ad3b0a09fad2a8#npm:5.45.0"],\
             ["babel-jest", "virtual:7df7f9ecb6b79bed7fee7078f38ec3d2803eb46229513855e8f70128391cab534dd2cdd504062ee251e72da8fb9bcfa3997b87bf3f7db15627ad3b0a09fad2a8#npm:29.3.1"],\
+            ["commander", "npm:9.4.1"],\
             ["eslint", "npm:8.28.0"],\
             ["eslint-config-airbnb-base", "virtual:7df7f9ecb6b79bed7fee7078f38ec3d2803eb46229513855e8f70128391cab534dd2cdd504062ee251e72da8fb9bcfa3997b87bf3f7db15627ad3b0a09fad2a8#npm:15.0.0"],\
             ["eslint-config-airbnb-typescript", "virtual:7df7f9ecb6b79bed7fee7078f38ec3d2803eb46229513855e8f70128391cab534dd2cdd504062ee251e72da8fb9bcfa3997b87bf3f7db15627ad3b0a09fad2a8#npm:17.0.0"],\
@@ -3466,6 +3467,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@typescript-eslint/eslint-plugin", "virtual:7df7f9ecb6b79bed7fee7078f38ec3d2803eb46229513855e8f70128391cab534dd2cdd504062ee251e72da8fb9bcfa3997b87bf3f7db15627ad3b0a09fad2a8#npm:5.45.0"],\
             ["@typescript-eslint/parser", "virtual:7df7f9ecb6b79bed7fee7078f38ec3d2803eb46229513855e8f70128391cab534dd2cdd504062ee251e72da8fb9bcfa3997b87bf3f7db15627ad3b0a09fad2a8#npm:5.45.0"],\
             ["babel-jest", "virtual:7df7f9ecb6b79bed7fee7078f38ec3d2803eb46229513855e8f70128391cab534dd2cdd504062ee251e72da8fb9bcfa3997b87bf3f7db15627ad3b0a09fad2a8#npm:29.3.1"],\
+            ["commander", "npm:9.4.1"],\
             ["eslint", "npm:8.28.0"],\
             ["eslint-config-airbnb-base", "virtual:7df7f9ecb6b79bed7fee7078f38ec3d2803eb46229513855e8f70128391cab534dd2cdd504062ee251e72da8fb9bcfa3997b87bf3f7db15627ad3b0a09fad2a8#npm:15.0.0"],\
             ["eslint-config-airbnb-typescript", "virtual:7df7f9ecb6b79bed7fee7078f38ec3d2803eb46229513855e8f70128391cab534dd2cdd504062ee251e72da8fb9bcfa3997b87bf3f7db15627ad3b0a09fad2a8#npm:17.0.0"],\
