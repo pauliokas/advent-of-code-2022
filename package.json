@@ -5,7 +5,7 @@
     "test": "jest",
     "lint": "eslint .",
     "prepare": "husky install",
-    "download-input": "node ./bin/download-input.js"
+    "download-input": "./bin/download-input.js"
   },
   "devDependencies": {
     "@babel/core": "7.20.5",
