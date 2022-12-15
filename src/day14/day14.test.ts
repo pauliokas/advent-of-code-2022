@@ -16,7 +16,7 @@ describe('Day 14', () => {
     it('exercise', () => {
       const parsedInput = parseInput(input);
 
-      expect(solvePart1(parsedInput)).not.toBe(87);
+      expect(solvePart1(parsedInput)).toBe(592);
     });
   });
 
@@ -24,13 +24,13 @@ describe('Day 14', () => {
     it('example', () => {
       const parsedInput = parseInput(exampleInput);
 
-      expect(solvePart2(parsedInput)).toBe(-1);
+      expect(solvePart2(parsedInput)).toBe(93);
     });
 
     it('exercise', () => {
       const parsedInput = parseInput(input);
 
-      expect(solvePart2(parsedInput)).toBe(-1);
+      expect(solvePart2(parsedInput)).toBe(30367);
     });
   });
 });
