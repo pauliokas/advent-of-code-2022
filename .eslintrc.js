@@ -42,5 +42,6 @@ module.exports = {
     ],
     '@typescript-eslint/consistent-type-imports': 'error',
     '@typescript-eslint/no-use-before-define': ['error', { variables: false }],
+    'no-restricted-syntax': 'off',
   },
 };
