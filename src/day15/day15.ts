@@ -2,15 +2,15 @@ import { excludeRange, mergeRanges, sortRanges } from '@/utils/ranges';
 import type { Coords } from './day15.input';
 import type { Range } from '@/utils/ranges';
 
-const calcDistance = (a: Coords, b: Coords): number => Math.abs(a.x - b.x) + Math.abs(a.y - b.y);
-
-const getCoverageInY = (scanResults: { sensor: Coords; beacon: Coords }[], y: number, coordLimits?: Range): Range[] => {
+const getCoverageInRow = (
+  scanResults: { sensor: Coords; radius: number }[],
+  y: number,
+  coordLimits?: Range,
+): Range[] => {
   let coveredRanges: Range[] = [];
 
-  for (const { sensor, beacon } of scanResults) {
-    const scanRange = calcDistance(sensor, beacon);
-
-    const remainingRange = scanRange - Math.abs(y - sensor.y);
+  for (const { sensor, radius } of scanResults) {
+    const remainingRange = radius - Math.abs(y - sensor.y);
     if (remainingRange <= 0) continue;
     coveredRanges.push([sensor.x - remainingRange, sensor.x + remainingRange]);
   }
@@ -25,8 +25,8 @@ const getCoverageInY = (scanResults: { sensor: Coords; beacon: Coords }[], y: nu
   return coveredRanges;
 };
 
-export const solvePart1 = (scanResults: { sensor: Coords; beacon: Coords }[], y: number): number => {
-  let coveredRanges = getCoverageInY(scanResults, y);
+export const solvePart1 = (scanResults: { sensor: Coords; beacon: Coords; radius: number }[], y: number): number => {
+  let coveredRanges = getCoverageInRow(scanResults, y);
 
   for (const { sensor, beacon } of scanResults) {
     if (sensor.y === y) coveredRanges = excludeRange(coveredRanges, [sensor.x, sensor.x]);
@@ -36,9 +36,9 @@ export const solvePart1 = (scanResults: { sensor: Coords; beacon: Coords }[], y:
   return coveredRanges.reduce((acc, [a, b]) => acc + b - a + 1, 0);
 };
 
-export const solvePart2 = (scanResults: { sensor: Coords; beacon: Coords }[], coordLimits: Range): number => {
+export const solvePart2 = (scanResults: { sensor: Coords; radius: number }[], coordLimits: Range): number => {
   for (let y = 0; y <= coordLimits[1]; y += 1) {
-    const coveredRanges = getCoverageInY(scanResults, y, coordLimits);
+    const coveredRanges = getCoverageInRow(scanResults, y, coordLimits);
 
     if (coveredRanges.length > 1) {
       return 4000000 * (coveredRanges[0][1] + 1) + y;

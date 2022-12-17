@@ -1,9 +1,8 @@
 export type Range = [number, number];
 
 export const sortRanges = (ranges: Range[]): Range[] => {
-  const sortedRanges = [...ranges];
-  sortedRanges.sort(([a], [b]) => a - b);
-  return sortedRanges;
+  ranges.sort(([a], [b]) => a - b);
+  return ranges;
 };
 
 export const mergeRanges = (ranges: Range[]): Range[] => {

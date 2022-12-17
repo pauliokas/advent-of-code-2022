@@ -39,10 +39,10 @@ describe('Day 15', () => {
       expect(solvePart2(parsedInput, [0, 20])).toBe(56000011);
     });
 
-    it.skip('exercise', () => {
+    it('exercise', () => {
       const parsedInput = parseInput(input);
 
       expect(solvePart2(parsedInput, [0, 4000000])).toBe(13071206703981);
-    }, 60000);
+    }, 25000);
   });
 });
