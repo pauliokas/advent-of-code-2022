@@ -8,7 +8,6 @@ const fillWithSand = (cave: Map<number, '#' | 'o'>, { maxY, hasFloor }: { maxY: 
     let x = 500;
     let y = 0;
     while (y <= maxY) {
-      // eslint-disable-next-line @typescript-eslint/no-loop-func
       const dx = columnOptions.find((opt) => !cave.has(pair(x + opt, y + 1)));
       if (dx === undefined) break;
       x += dx;
