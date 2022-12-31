@@ -4,7 +4,7 @@ import input from './input.txt';
 
 const exampleInput = [].join('\n');
 
-describe('Day 23', () => {
+describe('Day 25', () => {
   describe('part 1', () => {
     it('example', () => {
       const parsedInput = parseInput(exampleInput);
